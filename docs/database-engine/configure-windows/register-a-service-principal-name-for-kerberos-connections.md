@@ -36,7 +36,7 @@ FROM sys.dm_exec_connections
 WHERE session_id = @@SPID;
 ```
 
-> [!TIP]  
+> [!TIP]  Applies to: Under SQL Server 2019
 > **Microsoft Kerberos Configuration Manager for SQL Server** is a diagnostic tool that helps troubleshoot Kerberos related connectivity issues with [!INCLUDE [ssnoversion-md](../../includes/ssnoversion-md.md)]. For more information, see [Microsoft Kerberos Configuration Manager for SQL Server](https://www.microsoft.com/download/details.aspx?id=39046).
 
 <a id="Role"></a>
